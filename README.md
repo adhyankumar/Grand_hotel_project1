@@ -1,1 +1,1 @@
-https://adhyankumar.github.io/portfolio/
+https://adhyankumar.github.io/Grand_hotel_project1/
