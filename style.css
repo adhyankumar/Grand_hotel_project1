@@ -722,3 +722,56 @@ body {
     color: gold;
 }
 /* end of footer */
+
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px (e.g., Mobile) */
+    .section {
+        width: 100vw;
+    }
+
+    .sidebar {
+        width: 4rem;
+    }
+
+    .navigation {
+        left: -24rem;
+        width: 28rem;
+    }
+
+    .header {
+        margin-left: 4rem;
+    }
+
+    .about-us,
+    .rooms,
+    .customers,
+    .footer {
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens between 601px and 1024px (e.g., Tablets) */
+    .section {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 6rem;
+    }
+
+    .navigation {
+        left: -16rem;
+        width: 20rem;
+    }
+
+    .header,
+    .about-us,
+    .rooms,
+    .customers,
+    .footer {
+        margin-left: 6rem;
+    }
+}
